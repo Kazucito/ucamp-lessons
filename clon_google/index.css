@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;/*indica el limite para que los elemntos trabajen (imagen,textos, botones, etc) */
+    margin: 0;
+    padding: 0;
+}
+/*contenedor_google*/
+.contenedor_google{
+    align-items: center;/*permite darle alineacion especifica a los elementos*/
+    display: flex; /*permite manipular las etiquetas hijas que estan embueltas en la etiqueta padre de una manera sencilla*/
+    flex-direction: column; /*para que los elementos los situe uno debajo del otro*/
+    gap: 20px; /*permite dar un espaciado a los elementos*/
+    height: 100vh; /*vh=viewport height*/
+    justify-content: center; /*justifica el contenido, todo lo que es contenedores hijos o hijas lo centra de manera vertical (el align-items lo centra de manera horizontal)*/
+    margin: 0 auto; /*indica que arriba y abajo no se quiere un valor, pero a los lados que sea de manera automatica*/
+    width: 50%;
+}
+/*imagen_google*/
+.imagen_google{
+    margin: 0 auto;
+    width: 40%;
+}
+/*buscador-google*/
+.buscador-google{
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;/*indica como va estar el vorde de las orillas del contendor*/
+    margin: 0 auto;
+    padding: 15px;
+    width: 80%;
+}
+/*botones-google*/
+.boton-google{
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    padding: 10px;
+}
